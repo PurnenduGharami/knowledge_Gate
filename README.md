@@ -97,8 +97,8 @@ Today, as a first-year CSE student at Sharda, I know I still have much to learn.
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/yourusername/knowledgegate.git
-cd knowledgegate
+git clone https://github.com/PurnenduGharami/knowledge_Gate.git
+cd knowledge_gate
 npm install
 ```
 2. Environment Setup
