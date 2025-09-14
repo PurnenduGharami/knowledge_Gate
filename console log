@@ -1,0 +1,151 @@
+Log severity: DEFAULT	Jul 14, 2025, 7:58:11 PM		
+⨯ [TypeError: Cannot read properties of undefined (reading 'clientModules')]
+Log severity: DEFAULT	Jul 14, 2025, 7:58:08 PM		
+[KnowledgeGate] Transformed 322 models successfully.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:08 PM		
+[KnowledgeGate] Successfully parsed 322 models from response.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:08 PM		
+[KnowledgeGate] Received response from OpenRouter with status: 200
+Log severity: DEFAULT	Jul 14, 2025, 7:58:08 PM		
+[KnowledgeGate] Attempting to fetch models from OpenRouter...
+Log severity: ERROR	Jul 14, 2025, 7:58:08 PM	
+500
+POST
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/
+Log severity: DEFAULT	Jul 14, 2025, 7:58:08 PM		
+⨯ [TypeError: Cannot read properties of undefined (reading 'clientModules')]
+Log severity: DEFAULT	Jul 14, 2025, 7:58:05 PM		
+[KnowledgeGate] Transformed 322 models successfully.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:05 PM		
+[KnowledgeGate] Successfully parsed 322 models from response.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:05 PM		
+[KnowledgeGate] Received response from OpenRouter with status: 200
+Log severity: DEFAULT	Jul 14, 2025, 7:58:05 PM		
+[KnowledgeGate] Attempting to fetch models from OpenRouter...
+Log severity: ERROR	Jul 14, 2025, 7:58:05 PM	
+500
+POST
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/
+Log severity: DEFAULT	Jul 14, 2025, 7:58:05 PM		
+⨯ [TypeError: Cannot read properties of undefined (reading 'clientModules')]
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[KnowledgeGate] Transformed 322 models successfully.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[KnowledgeGate] Successfully parsed 322 models from response.
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[KnowledgeGate] Received response from OpenRouter with status: 200
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[KnowledgeGate] Attempting to fetch models from OpenRouter...
+Log severity: ERROR	Jul 14, 2025, 7:58:03 PM	
+500
+POST
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+⨯ [TypeError: Cannot read properties of undefined (reading 'clientModules')]
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[queryProvider] The Genkit proxy flow failed for model moonshotai/kimi-k2:free. This is often a deployment or permission issue between App Hosting and Cloud Functions. Detailed Error: OpenRouter API request failed with status 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Parasail"}},"user_id":"user_2zChiVS6jbtFgxkAvBMJHwQ1poS"}
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async o.run (.next/server/chunks/687.js:15:62566)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async b (.next/server/chunks/687.js:32:66324)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async _ (.next/server/chunks/687.js:32:66649)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async (.next/server/chunks/687.js:32:66840)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async (.next/server/chunks/687.js:32:66426)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async (.next/server/chunks/687.js:15:63151)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async (.next/server/chunks/687.js:15:64229)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at async (.next/server/chunks/687.js:20:33756)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+at <unknown> (.next/server/chunks/334.js:1:4560)
+Log severity: DEFAULT	Jul 14, 2025, 7:58:03 PM		
+[openRouterProxyFlow] Error during fetch for model moonshotai/kimi-k2:free: Error: OpenRouter API request failed with status 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k2:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Parasail"}},"user_id":"user_2zChiVS6jbtFgxkAvBMJHwQ1poS"}
+Log severity: DEFAULT	Jul 14, 2025, 7:57:59 PM		
+[KnowledgeGate] Transformed 322 models successfully.
+Log severity: DEFAULT	Jul 14, 2025, 7:57:59 PM		
+[KnowledgeGate] Successfully parsed 322 models from response.
+Log severity: DEFAULT	Jul 14, 2025, 7:57:59 PM		
+[KnowledgeGate] Received response from OpenRouter with status: 200
+Log severity: DEFAULT	Jul 14, 2025, 7:57:59 PM		
+[KnowledgeGate] Attempting to fetch models from OpenRouter...
+Log severity: ERROR	Jul 14, 2025, 7:57:58 PM	
+500
+POST
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/
+Log severity: INFO	Jul 14, 2025, 7:57:54 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/_next/static/chunks/app/(app)/profile/page-3be6b3d5e3338179.js
+Log severity: INFO	Jul 14, 2025, 7:57:54 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/profile?_rsc=1ld0r
+Log severity: INFO	Jul 14, 2025, 7:57:54 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/history?_rsc=1ld0r
+Log severity: INFO	Jul 14, 2025, 7:57:54 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/favicon.ico
+Log severity: INFO	Jul 14, 2025, 7:57:53 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/_next/static/chunks/app/page-c02759b145c485ee.js
+Log severity: INFO	Jul 14, 2025, 7:57:52 PM	
+200
+GET
+https://t-369385953---knowledge-gate-247fgqhhia-de.a.run.app/
+Log severity: INFO	Jul 14, 2025, 7:54:12 PM		
+Ready condition status changed to True for Service knowledge-gate.
+Log severity: NOTICE	Jul 14, 2025, 7:54:11 PM		
+audit_log, method: "google.cloud.run.v2.Services.UpdateService", principal_email: service-1064038471165@gcp-sa-firebaseapphosting.iam.gserviceaccount.com
+Log severity: DEFAULT	Jul 14, 2025, 7:54:05 PM		
+✓ Ready in 13.4s
+Log severity: INFO	Jul 14, 2025, 7:53:53 PM		
+Ready condition status changed to True for Service knowledge-gate.
+Log severity: INFO	Jul 14, 2025, 7:53:51 PM		
+Ready condition status changed to True for Revision knowledge-gate-build-2025-07-14-003 with message: Deploying revision succeeded in 32.45s.
+Log severity: INFO	Jul 14, 2025, 7:53:51 PM		
+Default STARTUP TCP probe succeeded after 1 attempt for container "knowledge-gate-1" on port 8080.
+Log severity: DEFAULT	Jul 14, 2025, 7:53:51 PM		
+✓ Starting...
+Log severity: DEFAULT	Jul 14, 2025, 7:53:51 PM		
+- Network: http://0.0.0.0:8080
+Log severity: DEFAULT	Jul 14, 2025, 7:53:51 PM		
+- Local: http://localhost:8080
+
+
+https://knowledge-gate--knowledgegate-2xy85.asia-east1.hosted.app/ 500 (Internal Server Error)
+M	@	684-ecd426ca97be2d3f.js:1
+await in M		
+w	@	684-ecd426ca97be2d3f.js:1
+f	@	684-ecd426ca97be2d3f.js:1
+action	@	684-ecd426ca97be2d3f.js:1
+p	@	684-ecd426ca97be2d3f.js:1
+(anonymous)	@	684-ecd426ca97be2d3f.js:1
+dispatch	@	684-ecd426ca97be2d3f.js:1
+u	@	684-ecd426ca97be2d3f.js:1
+l	@	684-ecd426ca97be2d3f.js:1
+(anonymous)	@	684-ecd426ca97be2d3f.js:1
+(anonymous)	@	684-ecd426ca97be2d3f.js:1
+(anonymous)	@	684-ecd426ca97be2d3f.js:1
+l	@	684-ecd426ca97be2d3f.js:1
+r	@	684-ecd426ca97be2d3f.js:1
+Q	@	page-c02759b145c485ee.js:1
+await in Q		
+H	@	page-c02759b145c485ee.js:1
+ea	@	page-c02759b145c485ee.js:1
+onClick	@	page-c02759b145c485ee.js:1
+iX	@	4bd1b696-d41b52fb6393b1d8.js:1
+(anonymous)	@	4bd1b696-d41b52fb6393b1d8.js:1
+nS	@	4bd1b696-d41b52fb6393b1d8.js:1
+i2	@	4bd1b696-d41b52fb6393b1d8.js:1
+s7	@	4bd1b696-d41b52fb6393b1d8.js:1
+s5	@	4bd1b696-d41b52fb6393b1d8.js:1
+
+multiple same error message is not a problem. as my app is designed to try other models if one don't work it just trying again and again

@@ -1,0 +1,19 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Health check document - allow anyone to write to this specific doc
+    // to confirm a connection without needing authentication.
+    match /hi/hi {
+      allow write: if true;
+    }
+
+    // Users can only read and write to their own data document.
+    // This is the core security rule for user data privacy.
+    match /users/{userId} {
+      allow read, update, delete: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null;
+    }
+  }
+}

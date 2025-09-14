@@ -1,0 +1,14 @@
+{
+  "firestore": {
+    "database": "knowledge-gate",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "source": ".",
+    "frameworksBackend": {
+      "region": "asia-south1"
+    }
+  }
+}

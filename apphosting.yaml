@@ -1,0 +1,21 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+env:
+  - variable: OPENROUTER_API_KEY
+    secret: OPENROUTER_API_KEY
+  - variable: GOOGLE_API_KEY
+    secret: GEMINI_API_KEY
+# Add the vpcConnector configuration to allow outbound network traffic
+# to external services like the OpenRouter API.
+vpcConnector:
+  # IMPORTANT: Replace the placeholders below with your actual values.
+  # YOUR_PROJECT_ID: Find this in your Firebase project settings.
+  # YOUR_REGION: The region you chose for the connector (e.g., us-central1).
+  # YOUR_CONNECTOR_NAME: The name you gave the connector (e.g., apphosting-connector).
+  name: projects/YOUR_PROJECT_ID/locations/YOUR_REGION/connectors/YOUR_CONNECTOR_NAME
+  egress: ALL_TRAFFIC
